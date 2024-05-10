@@ -3,7 +3,7 @@
 ## Goal
 The goal of this repository is to perform an extraction of comments from the Youtube trailer of the Handmaid's tale, and analysis of the comments.
 
-## Structure
+## Structure of scripts (in "scripts" folder)
 1. Extraction: Extracts the comments via the YouTube Data API;
 2. Sentiment Analysis: analysis of the sentiment of the comments extracted
 3. Word Analysis: NLP analysis of the most recurring words in the comments, concurrence analysis and topic modeling (WIP)
