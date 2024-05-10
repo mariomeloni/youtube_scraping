@@ -9,7 +9,7 @@ from nltk.text import Text
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.decomposition import LatentDirichletAllocation
 
-csv_file_path = "youtube_comments_sentiment.csv"
+csv_file_path = "../youtube_comments_sentiment.csv"
 df = pd.read_csv(csv_file_path)
 
 # Combine all comments into a single string (corpus)

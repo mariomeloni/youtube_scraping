@@ -4,7 +4,7 @@ from textblob import TextBlob
 
 
 # Load the CSV file into a DataFrame
-csv_file_path = "youtube_comments.csv"
+csv_file_path = "../youtube_comments.csv"
 df = pd.read_csv(csv_file_path)
 
 # Define a function to get the sentiment label of a comment
